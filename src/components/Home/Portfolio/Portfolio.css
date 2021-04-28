@@ -1,0 +1,31 @@
+
+/* .photo-frame{
+     height: 520px; 
+    width: 400px;
+    border: 10px solid blue;
+    border-radius:10px;
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+}
+.photo-frame .photo img{
+    height: 520px;
+    width: 400px;         
+} */
+.photo-frame:hover  img{
+transform: scale(1.2);
+   transition: transform 5s;          
+}
+
+/* .photo-details{
+    position: absolute;
+     height: 520px; 
+    width: 400px;
+    top: 0;
+    display: none;
+}
+.photo-frame:hover .photo-details{
+    display: block;
+   background-color: rgba(255, 255, 255, 0.5)
+             
+} */
